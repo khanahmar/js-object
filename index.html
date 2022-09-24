@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sign form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a href="data.html" target="_blank">Form Data</a>
+    <div id="container" class="container">
+      <h1>Sign Up</h1>
+      <form id="form">
+        <div class="form-control">
+          <label for="user-name"> Name :</label>
+          <input
+            type="text"
+            name=""
+            id="user-name"
+            placeholder="Enter your name"
+            autofocus
+          />
+          <small class="massage"></small>
+        </div>
+
+        <div class="form-control">
+          <label for="user-email"> Email :</label>
+          <input
+            type="email"
+            name=""
+            id="user-email"
+            placeholder="Enter your email"
+          />
+          <small class="massage"></small>
+        </div>
+
+        <input type="submit" id="submit" />
+      </form>
+    </div>
+    <br /><br />
+    <div
+      style="font-size: 25px; width: 500px; height: 500px"
+      id="userdata"
+    ></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
